@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body: 'Signika', sans-serif;
+    --title: 'Acme', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #222738;
+    /* filter: blur(5px); */
+}
+
+main {
+    display: grid;
+    place-content: center;
+    margin-top: 10rem;
+    
+}
+
+small {
+    display: inline-block;
+    padding-bottom: 20px;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #f7f7f7b2;
+    text-shadow: 1px 1px 10px #38b000,
+                 1px 1px 10px #38b000,
+                 1px 1px 10px #38b000,
+                 1px 1px 10px #38b000;
+}
+
+span {
+    padding-bottom: 20px;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #f7f7f7b2;
+    text-shadow: 1px 1px 10px #38b000,
+                 1px 1px 10px #38b000,
+                 1px 1px 10px #38b000,
+                 1px 1px 10px #38b000;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+}
+
+.container > button {
+    height: 150px;
+    background-color: #151724;
+    border: 1px solid #222738;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1517247c;
+}
+
+
+h1 {
+    padding-top: 30px;
+    font-family: var(--title);
+    font-size: 3rem;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 10px #fca311,
+                 1px 1px 10px #fca311,
+                 1px 1px 10px #fca311;
+    color: #f7f7f7b2;
+    
+}
